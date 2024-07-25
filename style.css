@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;
+  }
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url(./src/Outfit/Outfit-Black.ttf); 
+}
+body{
+font-family: Outfit;
+background-color: #183254;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: auto;
+}
+nav{
+width: 100%;
+height: 100px;
+display: flex; 
+flex-direction: row;
+z-index: 999;
+align-items: center;
+justify-content: center;
+}
+
+a{
+color:white;
+text-decoration: none;
+}
+
+.nav-item{
+margin:auto;
+padding-top: 50px;
+height:80px;
+}
